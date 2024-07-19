@@ -25,6 +25,7 @@ private lateinit var binding: ActivityMainBinding
 
      companion object {
          // Used to load the 'ndk_example_1' library on application startup.
+         //initial commit
          init {
              System.loadLibrary("ndk_example_1")
          }
